@@ -3,7 +3,7 @@
   "chain": "mainnet",
   "datasources": [
     {
-      "module": ["erc1155", "ownable", "accesscontrol"]
+      "module": ["erc20", "erc721", "erc1155"]
     }
   ]
 }

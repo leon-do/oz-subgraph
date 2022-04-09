@@ -3,11 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "compile": "npx graph-compiler --config configs/config.json --include node_modules/@openzeppelin/subgraphs/src/datasources --export-schema --export-subgraph",
-    "create": "graph create generated/sample --node http://127.0.0.1:8020",
-    "deploy": "graph deploy --ipfs http://localhost:5001 --node http://localhost:8020 generated/sample ./generated/sample.subgraph.yaml"
-  },
+  "scripts": {},
   "keywords": [],
   "author": "",
   "license": "ISC",
